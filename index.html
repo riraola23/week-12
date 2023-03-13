@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for ="charge-date">Charge Date</label>
+                        <input type="date" class="form-control" id="charge-date">
+                    </div>
+
+                </div>
+               
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <br>
+                        <label for ="car-model">Car Manufacturer</label>
+                        <input type="text" class="form-control" id="car-model" placeholder="">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <br>
+                        <label for ="car-model">Location</label>
+                        <input type="text" class="form-control" id="location" placeholder="">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <br>
+                        <label for ="charging-speed">Charging Speed</label>
+                        <input type="text" class="form-control" id="charging-speed" placeholder="">
+
+                </div>
+            </div>
+            <br>
+            <div>
+                <button id="add" class="btn btn-primary form-control">Submit</button>
+            </div>
+        </div>
+    </div>
+    <table id="list" class="table table-light table-hover table-striped">
+        <tr>
+            <th>Car Manufacturer</th>
+            <th>Charge Date</th>
+            <th>Charging Speed</th>
+            <th>Location</th>
+            
+
+        </tr>
+
+    </table>
+    
+
+
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
